@@ -16,16 +16,12 @@ function App() {
   }, [])
 
   const keydown = (e) => {
-    // if (e.key === "Enter" || e.click) {
       document.removeEventListener("keydown", keydown, false);
       setRound({
         note: notes[Math.floor(Math.random() * (notes.length - 0) + 0)],
         string: strings[Math.floor(Math.random() * (strings.length - 0) + 0)]
       })
-    // }
   }
-
-  console.log('rerender')
 
   return (
     <div className="App">
