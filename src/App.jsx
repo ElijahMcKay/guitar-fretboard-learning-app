@@ -9,7 +9,7 @@ function App() {
   });
 
   const notes = ['A', 'A#', 'B', 'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#'];
-  const strings = ['1st (E)', '2nd (B)', '3rd (G)', '4th (D)', '5th (A)', '6th (E)'];
+  const strings = [/*'1st (E)', '2nd (B)', '3rd (G)',*/ '4th (D)', '5th (A)', '6th (E)'];
 
   useEffect(() => {
     setInterval(keydown, 10000)
